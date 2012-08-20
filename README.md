@@ -1,6 +1,7 @@
 # MinceModel
 
-TODO: Write a gem description
+Common model behavior for objects backed by Mince
+
 
 ## Installation
 
@@ -16,9 +17,14 @@ Or install it yourself as:
 
     $ gem install mince_model
 
+
 ## Usage
 
-TODO: Write usage instructions here
+1. Write your models as plain old Ruby objects.
+2. In your model, `include MinceModel`.
+3. In your model, define the data model with `data_model DataModelClass`.
+4. In your model, define fields with `field :field_name, assignable: true`.
+
 
 ## Contributing
 
