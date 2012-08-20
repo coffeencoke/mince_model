@@ -10,8 +10,8 @@ Gem::Specification.new do |gem|
   gem.summary       = %q{Common model behavior for objects backed by Mince}
   gem.homepage      = "http://github.com/ionicmobile/mince_model"
 
-  gem.files         = %w(lib/mince_model lib/mince_model/version)
-  gem.test_files    = %w(spec/lib/mince_model)
+  gem.files         = %w(lib/mince_model.rb lib/mince_model/version.rb)
+  gem.test_files    = %w(spec/lib/mince_model_spec.rb)
   gem.require_paths = ["lib"]
 
   gem.add_dependency 'activesupport', '~> 3.2'
