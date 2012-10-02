@@ -6,9 +6,9 @@ Gem::Specification.new do |gem|
   gem.version       = MinceModel::VERSION
   gem.authors       = ["Matt Simpson", "Craig Buchek"]
   gem.email         = ["matt.simpson3@gmail.com"]
-  gem.description   = %q{Common model behavior for objects backed by Mince}
-  gem.summary       = %q{Common model behavior for objects backed by Mince}
-  gem.homepage      = "http://github.com/ionicmobile/mince_model"
+  gem.description   = %q{Common model behavior for objects backed by Mince Data Model}
+  gem.summary       = %q{Common model behavior for objects backed by Mince Data Model}
+  gem.homepage      = "https://github.com/asynchrony/mince_model"
 
   gem.files         = %w(lib/mince_model.rb lib/mince_model/version.rb)
   gem.test_files    = %w(spec/lib/mince_model_spec.rb)
