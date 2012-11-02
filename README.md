@@ -1,3 +1,5 @@
+**This gem has been moved to the [mince](https://github.com/coffeencoke/mince) core gem, and this repo is deprecated**
+
 # MinceModel
 
 Common model behavior for objects backed by Mince
